@@ -33,7 +33,7 @@ def node_2(state):
 
 def node_3(state):
     print("---Node 3---")
-    return {"graph_state":state['graph_state'] +" sad!"}
+    return {"graph_state":state['graph_state'] +" hungry!"}
 
 # Build graph
 builder = StateGraph(State)
